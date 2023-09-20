@@ -1,4 +1,4 @@
-package com.lukaspatrnciak.eshop.data.domain;
+package com.lukaspatrnciak.eshop.data.user.domain;
 
 public class User {
     private String name;

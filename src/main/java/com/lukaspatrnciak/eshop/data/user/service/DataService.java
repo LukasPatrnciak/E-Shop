@@ -1,6 +1,6 @@
-package com.lukaspatrnciak.eshop.data.services;
+package com.lukaspatrnciak.eshop.data.user.service;
 
-import com.lukaspatrnciak.eshop.data.domain.User;
+import com.lukaspatrnciak.eshop.data.user.domain.User;
 import org.apache.commons.codec.digest.DigestUtils;
 
 import java.util.HashMap;
