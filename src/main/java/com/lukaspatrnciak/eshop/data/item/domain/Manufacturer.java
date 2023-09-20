@@ -17,8 +17,6 @@ public class Manufacturer implements WithName {
 
     @Override
     public String toString() {
-        return "Manufacturer{" +
-                "name='" + name + '\'' +
-                '}';
+        return name;
     }
 }

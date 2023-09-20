@@ -1,5 +1,7 @@
 package com.lukaspatrnciak.eshop.data;
 
+import com.lukaspatrnciak.eshop.data.item.domain.Item;
+import com.lukaspatrnciak.eshop.data.item.domain.Manufacturer;
 import com.lukaspatrnciak.eshop.data.item.service.CategoryService;
 import com.lukaspatrnciak.eshop.data.item.service.ItemService;
 import com.lukaspatrnciak.eshop.data.item.service.ManufacturerService;
@@ -38,11 +40,47 @@ public class Eshop {
         this.authorisationService = authorisationService;
     }
 
+    public ItemService getItemService() {
+        return itemService;
+    }
+
+    public void setItemService(ItemService itemService) {
+        this.itemService = itemService;
+    }
+
+    public ManufacturerService getManufacturerService() {
+        return manufacturerService;
+    }
+
+    public void setManufacturerService(ManufacturerService manufacturerService) {
+        this.manufacturerService = manufacturerService;
+    }
+
+    public CategoryService getCategoryService() {
+        return categoryService;
+    }
+
+    public void setCategoryService(CategoryService categoryService) {
+        this.categoryService = categoryService;
+    }
+
     @Override
     public String toString() {
-        return "Eshop{" +
-                "userService=" + userService +
-                ", authorisationService=" + authorisationService +
-                '}';
+        StringBuilder builder = new StringBuilder("\nE - S H O P");
+
+        builder.append("\nVyrobcovia: \n");
+        for(Manufacturer manufacturer: manufacturerService.findAllManufacturers()) {
+            builder.append(" ").append(manufacturer).append("\n");
+        }
+
+        builder.append("\nKategorie: \n");
+        builder.append(categoryService.getRootCategory().toStringTree(" "));
+
+        builder.append("\nPolozky: \n");
+        for(Item item: getItemService().findAllItems()) {
+            builder.append(" ").append(item).append("\n");
+        }
+
+        return builder.toString();
     }
 }

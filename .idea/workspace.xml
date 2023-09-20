@@ -5,26 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42801dde-fb42-4371-8da6-49995a057b82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/domain/WithName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/BasicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/ManufacturerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/comparator/NameComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/Eshop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/Eshop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/domain/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/domain/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/domain/Manufacturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/domain/Manufacturer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/ItemComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/BasicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/BasicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/item/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/user/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/user/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/user/service/AuthorisationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/user/service/AuthorisationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/user/service/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/user/service/DataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukaspatrnciak/eshop/data/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/lukaspatrnciak/eshop/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/lukaspatrnciak/eshop/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695160925801</updated>
       <workItem from="1695160926970" duration="5228000" />
-      <workItem from="1695197026254" duration="4026000" />
+      <workItem from="1695197026254" duration="6874000" />
     </task>
     <servers />
   </component>

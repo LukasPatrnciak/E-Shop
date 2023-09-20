@@ -54,11 +54,10 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+        return "\nP O U Z I V A T E L\n" +
+                " Meno: " + name + "\n" +
+                " Priezvisko: " + surname + "\n" +
+                " E-Mail: " + email + "\n" +
+                " Heslo: " + password;
     }
 }

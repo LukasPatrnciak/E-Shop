@@ -13,7 +13,7 @@ public class BasicService implements ItemService, ManufacturerService, CategoryS
     private Set<Item> items;
     private Set<Manufacturer> manufacturers;
 
-    private Set<Category> categories;
+    private Set<Category> subcategories;
     private Category rootCategory;
 
     public BasicService(String rootCategoryName) {
@@ -73,8 +73,8 @@ public class BasicService implements ItemService, ManufacturerService, CategoryS
     }
 
     @Override
-    public void addCategory(Category category) {
-        categories.add(category);
+    public void addSubcategory(Category subcategory) {
+        subcategories.add(subcategory);
     }
 
     @Override

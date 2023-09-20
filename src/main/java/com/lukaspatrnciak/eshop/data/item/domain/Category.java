@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class Category {
     private String name;
-    private Set<String> subcategories;
+    private Set<Category> subcategories;
 
     public Category(String name) {
         this.name = name;
@@ -20,12 +20,16 @@ public class Category {
         this.name = name;
     }
 
-    public Set<String> getSubcategories() {
+    public Set<Category> getSubcategories() {
         return subcategories;
     }
 
-    public void setSubcategories(Set<String> subcategories) {
+    public void setSubcategories(Set<Category> subcategories) {
         this.subcategories = subcategories;
+    }
+
+    public void addSubcategory(Category subcategory) {
+        subcategories.add(subcategory);
     }
 
     @Override
@@ -34,5 +38,16 @@ public class Category {
                 "name='" + name + '\'' +
                 ", subcategories='" + subcategories + '\'' +
                 '}';
+    }
+
+    public String toStringTree(String tabs) {
+        StringBuilder builder = new StringBuilder();
+
+        builder.append(tabs).append(name).append("\n");
+        for(Category subcategory: subcategories) {
+            builder.append(subcategory.toStringTree(tabs + " "));
+        }
+
+        return builder.toString();
     }
 }
